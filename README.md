@@ -11,7 +11,7 @@ A simple to-do list where users can:
 - Move tasks up/down
 
 📌 Technologies: `React`, `useState`, `JSX`, custom CSS  
-🔗 Live Demo: [Todo App](react-mini-projects-p55o.vercel.app)
+🔗 Live Demo: [Todo App](https://react-mini-projects-p55o.vercel.app/)
 
 ---
 
@@ -19,7 +19,7 @@ A simple to-do list where users can:
 A real-time digital clock that updates every second.
 
 📌 Technologies: `React`, `useEffect`, `JSX`  
-🔗 Live Demo: [Digital Clock](react-mini-projects-two-self.vercel.app)
+🔗 Live Demo: [Digital Clock](https://react-mini-projects-two-self.vercel.app/)
 
 ---
 
@@ -27,7 +27,7 @@ A real-time digital clock that updates every second.
 Start, stop, and reset a basic stopwatch with second tracking.
 
 📌 Technologies: `React`, `useEffect`, `useRef`  
-🔗 Live Demo: [Stopwatch](react-mini-projects-jox3.vercel.app)
+🔗 Live Demo: [Stopwatch](https://react-mini-projects-jox3.vercel.app/)
 
 ---
 
