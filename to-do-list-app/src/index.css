@@ -45,6 +45,7 @@ input[type="text"]{
   border: 2px solid hsl(259, 41%, 86%);
   border-radius: 5px;
   color:hsl(258, 10%, 38%) ;
+  margin-right: 5px;
 }
 ol{
     padding: 0;
@@ -72,4 +73,98 @@ li{
     margin-left: 10px;
     font-size: 1.4rem;
     padding: 8px 12px;
+}
+
+@media (min-width: 250px) and (max-width: 450px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .to-do-list {
+    margin-top: 50px;
+    padding: 0 10px;
+  }
+
+  input[type="text"] {
+    font-size: 1.2rem;
+    width: 65%; /* changed from 100% to 65% */
+    display: inline-block;
+  }
+
+  button, .delete-button, .move-button {
+    font-size: 1.4rem;
+    padding: 8px 10px;
+  }
+
+  li {
+    font-size: 1.4rem;
+    padding: 10px;
+    
+    align-items: flex-start;
+  }
+
+  .text {
+    margin-bottom: 10px;
+  }
+}
+
+/* 451px - 550px */
+@media (min-width: 451px) and (max-width: 550px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  input[type="text"] {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+input[type="text"] {
+    font-size: 1.2rem;
+    width: 70%; /* changed from 100% to 65% */
+    display: inline-block;
+  }
+  button {
+    font-size: 1.5rem;
+    padding: 9px 14px;
+  }
+
+  li {
+    font-size: 1.6rem;
+    
+    align-items: flex-start;
+  }
+
+  .text {
+    margin-bottom: 8px;
+  }
+}
+
+/* 550px - 600px */
+@media (min-width: 550px) and (max-width: 600px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  input[type="text"] {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+
+  button {
+    font-size: 1.6rem;
+    padding: 10px 16px;
+  }
+
+  li {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 601px) {
+  input[type="text"] {
+    width: 100%;
+    max-width: 500px; /* optional: to avoid it stretching too wide on large screens */
+  }
+   li {
+    font-size: 2rem;
+  }
 }
