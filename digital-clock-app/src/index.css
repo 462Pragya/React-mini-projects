@@ -1,5 +1,6 @@
+
 body{
- background-image: url('E:\React-mini-projects\digital-clock-app\src\assets\bgimg.jpeg');
+ background-image: url('/bgimg.jpeg');
  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
